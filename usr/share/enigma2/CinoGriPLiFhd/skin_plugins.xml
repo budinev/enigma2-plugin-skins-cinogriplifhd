@@ -830,16 +830,22 @@
     <widget name="config" position="780,105" size="1110,152" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" />
     <widget render="Label" source="ButtonGreentext" position="678,1030" size="600,38" font="Regular;34" backgroundColor="darkgrey" zPosition="2" transparent="1" foregroundColor="grey" halign="left" />
   </screen>
+
   <!-- DreamboxExplorer -->
+
   <screen name="DreamExplorerII" position="fill" title="Dream-Explorer" flags="wfNoBorder">
     <panel name="PigTemplate" />
     <panel name="KeyMenuInfoTemplate" />
-    <eLabel text="Delete" position="242,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
-    <eLabel text="Rename" position="678,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
-    <eLabel text="Move/Copy" position="1114,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
-    <eLabel text="Bookmarks" position="1550,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+        <!--
+    <eLabel text="Delete" position="242,1033" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+    <eLabel text="Rename" position="678,1033" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+    <eLabel text="Move/Copy" position="1114,1033" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+    <eLabel text="Bookmarks" position="1550,1033" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+        -->
     <widget name="filelist" position="780,100" size="1110,912" scrollbarMode="showOnDemand" />
   </screen>
+
+  
   <screen name="vInputBox" position="fill" title="Input..." flags="wfNoBorder">
     <panel name="PigTemplate" />
     <widget name="text" position="30,600" size="1860,37" font="Regular;30" halign="left" zPosition="1" />
