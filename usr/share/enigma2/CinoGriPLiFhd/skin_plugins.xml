@@ -1,6 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
 
+  <!-- slmanager -->  
+<screen name="slManager" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="860,576" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="desc" position="953,1141" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="ecminfo" position="952,1233" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="list" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,465" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+
+  <!-- slmanager   -->
+<screen name="GetipklistLs" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+
+  <!-- slmanager  --> 
+<screen name="GetipkLs" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+  
+</screen>
+
+
+
+
+
+  <!-- slpanel --> 
   <!-- slpanel image thanks mfaraj57-gogj from plugin Universal ImageDownloader -->                
 <screen name="STBmodel" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
@@ -137,47 +172,13 @@
 </screen>
 
 
-  <!-- slmanager -->  
-<screen name="slManager" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
-  <panel name="PigTemplate" />
-  <panel name="ButtonTemplate" />
-  <widget name="info" position="860,576" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  <widget name="desc" position="953,1141" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  <widget name="ecminfo" position="952,1233" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  <widget name="list" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,465" scrollbarMode="showOnDemand" />
-  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
-</screen>
-
-  <!-- slmanager   -->
-<screen name="GetipklistLs" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
-  <panel name="PigTemplate" />
-  <panel name="ButtonTemplate" />
-  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
-  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
-</screen>
-
-  <!-- slmanager  --> 
-<screen name="GetipkLs" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
-  <panel name="PigTemplate" />
-  <panel name="ButtonTemplate" />
-  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
-  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
-  
-</screen>
-
-
-
-
-
-  <!-- slpanel -->             
+            
 <screen name="Homesl" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
   
   
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
 
@@ -186,7 +187,7 @@
 <screen name="Drivers" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -196,7 +197,7 @@
 <screen name="slDependencies" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -206,7 +207,7 @@
 <screen name="Picons" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -215,7 +216,7 @@
 <screen name="PluginBackup" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -225,7 +226,7 @@
 <screen name="PluginEmulators" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -235,7 +236,7 @@
 <screen name="PluginEpg" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -245,7 +246,7 @@
 <screen name="PluginIptv" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -255,7 +256,7 @@
 <screen name="Kodi" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -265,7 +266,7 @@
 <screen name="PluginMultiboot" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -275,7 +276,7 @@
 <screen name="PluginPpanel" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -285,7 +286,7 @@
 <screen name="PluginSettings" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -295,7 +296,7 @@
 <screen name="PluginSpinner" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -305,7 +306,7 @@
 <screen name="PluginSkins" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -315,7 +316,7 @@
 <screen name="PluginSport" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -325,7 +326,7 @@
 <screen name="PluginUtility" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -335,7 +336,7 @@
 <screen name="PluginWeather" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -345,7 +346,7 @@
 <screen name="slSettingCorvo" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -355,7 +356,7 @@
 <screen name="PluginslMilenko61" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -365,7 +366,7 @@
 <screen name="PluginslSettingVhan" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -375,7 +376,7 @@
 <screen name="PluginslSettingManutek" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -386,7 +387,7 @@
 <screen name="PluginslSettingMorpheus" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -396,7 +397,7 @@
 <screen name="slSettingCiefp" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -406,7 +407,7 @@
 <screen name="slSettingMalimali" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -416,7 +417,7 @@
 <screen name="slSettingPredrag" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -433,7 +434,7 @@
     </widget>
     <ePixmap objectTypes="key_green,Button,Label" pixmap="CinoGriPLiFhd/buttons/green.png" position="628,1032" size="34,34" alphatest="blend" />
   
-  <widget name="config" zPosition="2" position="780,105" size="1110,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
+  <widget name="config" zPosition="2" position="780,105" size="1110,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
 
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -444,7 +445,7 @@
 <screen name="pluginSl" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="list" zPosition="2" position="780,105" size="1110,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
+  <widget name="list" zPosition="2" position="780,105" size="1110,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
 </screen> 
@@ -467,7 +468,7 @@
 <screen name="IPKinst" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
-  <widget name="text" zPosition="2" position="789,113" size="1110,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
+  <widget name="text" zPosition="2" position="789,113" size="1110,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />   
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
   <widget name="info1" position="5,634" zPosition="4" size="773,87" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" />  
@@ -480,7 +481,7 @@
 <screen name="slConsole" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
 <!--  <panel name="ButtonTemplate" />-->
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
    
@@ -490,7 +491,7 @@
 <screen name="InstallGo" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
 <!--  <panel name="ButtonTemplate" />-->
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
@@ -504,7 +505,7 @@
       <convert type="ConditionalShowHide" />
     </widget>
     <ePixmap objectTypes="key_green,Button,Label" pixmap="CinoGriPLiFhd/buttons/green.png" position="628,1032" size="34,34" alphatest="blend" />
-  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+  <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
   <ePixmap pixmap="skin_default/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
   <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
