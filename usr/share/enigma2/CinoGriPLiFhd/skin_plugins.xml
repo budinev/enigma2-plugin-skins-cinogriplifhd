@@ -1,6 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
 
+  <!-- LCNScanner -->  
+<screen name="LCNScannerPlugin" position="fill" title="LCN Scanner" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+	<ePixmap position="1,805" size="748,4" pixmap="/usr/lib/enigma2/python/Plugins/SystemPlugins/LCNScanner/images/progress-bg.png" alphatest="blend" zPosition="1" />
+	<ePixmap position="0,805" size="750,6" pixmap="/usr/lib/enigma2/python/Plugins/SystemPlugins/LCNScanner/images/progress-border.png" alphatest="blend" zPosition="4" />
+	<widget name="progress" position="0,805" size="750,6" pixmap="/usr/lib/enigma2/python/Plugins/SystemPlugins/LCNScanner/images/progress.png" transparent="1" zPosition="3" />
+    <widget name="log" position="780,105" size="1137,691" font="Regular;34" />
+<!--
+    <widget name="key_red" position="40,490" size="150,50" valign="center" halign="center" zPosition="5" transparent="1" foregroundColor="white" font="Regular;24" />
+    <widget name="key_green" position="190,490" size="150,50" valign="center" halign="center" zPosition="5" transparent="1" foregroundColor="white" font="Regular;24" />
+    <widget name="key_yellow" position="340,490" size="150,50" valign="center" halign="center" zPosition="5" transparent="1" foregroundColor="white" font="Regular;24" />
+    <widget name="key_blue" position="490,490" size="150,50" valign="center" halign="center" zPosition="5" transparent="1" foregroundColor="white" font="Regular;24" />
+    <ePixmap name="red" pixmap="skin_default/buttons/red.png" position="40,495" size="150,40" zPosition="4" transparent="1" alphatest="on" />
+    <ePixmap name="green" pixmap="skin_default/buttons/green.png" position="190,495" size="150,40" zPosition="4" transparent="1" alphatest="on" />
+    <ePixmap name="yellow" pixmap="skin_default/buttons/yellow.png" position="340,495" size="150,40" zPosition="4" transparent="1" alphatest="on" />
+    <ePixmap name="blue" pixmap="skin_default/buttons/blue.png" position="490,495" size="150,40" zPosition="4" transparent="1" alphatest="on" />
+-->  
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+
   <!-- slmanager -->  
 <screen name="slManager" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
@@ -353,7 +374,7 @@
    
 </screen> 
 
-<screen name="PluginslMilenko61" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
+<screen name="PluginslMilenka61" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
   <widget name="text" zPosition="2" position="780,105" size="1137,902" itemHeight="50" font="Regular; 34" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
