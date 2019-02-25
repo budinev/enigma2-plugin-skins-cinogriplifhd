@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
-
+  <!-- LCNScannerPluginSl -->  
+  
+<screen name="LCNScannerPluginSl" position="fill" title="LCN Scanner" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand" />
+</screen>        
+        
   <!-- LCNScanner -->  
 <screen name="LCNScannerPlugin" position="fill" title="LCN Scanner" flags="wfNoBorder">
   <panel name="PigTemplate" />
