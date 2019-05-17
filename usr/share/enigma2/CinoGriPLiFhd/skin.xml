@@ -197,8 +197,10 @@
       <pixmap filename="CinoGriPLiFhd/border/line.png" pos="bpBottom" />
     </borderset>
   </windowstyle>
+  
   <include filename="skin_templates.xml" />
   <include filename="skin_plugins.xml" />
+  
   <!-- Volume -->
   <screen name="Volume" title="Volume" position="5,145" size="30,328" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
     <widget name="Volume" pixmap="CinoGriPLiFhd/infobar/volumeslider.png" position="0,0" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1">
