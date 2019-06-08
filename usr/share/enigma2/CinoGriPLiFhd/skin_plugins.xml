@@ -1,6 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
 
+  <!-- slSettings   -->
+<screen name="MainSetting" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingVhan" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingMilenka61" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingManutek" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingMorpheus" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingCiefp" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingMalimali" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+<screen name="SettingPredrag" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />
+  <widget name="info" position="4,731" zPosition="4" size="773,92" font="Regular;32" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+  <widget name="text" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+</screen>
+
+    
 
   <!-- SetPiconPath -->    
  <screen name="SetPiconPath" position="fill" title="Picon Path Set" flags="wfNoBorder">
@@ -15,7 +74,7 @@
 <screen name="piconPath" position="fill" title="piconPath" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="KeyInfoTemplate" />
-  <widget source="target" render="Label" position="779,95" size="1105,60" zPosition="10" font="Regular; 32" halign="left" valign="center" foregroundColor="unffff00" />
+  <widget source="target" render="Label" position="779,95" size="1105,60" zPosition="10" font="Regular; 32" halign="left" valign="center" foregroundColor="#ffffff" />
   <widget name="filelist" position="780,160" size="1110,350" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel.png" />
   <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
 </screen>
@@ -393,7 +452,7 @@
    
 </screen> 
 
-<screen name="PluginIptv" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
+<screen name="PluginMultim" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />
   <widget name="title" position="354,1096" zPosition="3" size="908,66" font="Regular;40" foregroundColor="#ffcc33" backgroundColor="black" transparent="1" halign="center" />
