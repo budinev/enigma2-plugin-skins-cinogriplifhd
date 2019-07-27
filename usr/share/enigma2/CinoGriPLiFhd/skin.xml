@@ -6,6 +6,7 @@
   <!-- BUT DO NOT REMOVE OR CHANGE THE SECOND LINE IN !!! -->
   <!-- Do whatever you want with this skin, but don't tell it's yours, or your idea -->
   <!-- Head -->
+  <!-- edited from Lululla -->
   <output id="0">
     <resolution bpp="32" xres="1920" yres="1080" />
   </output>
@@ -294,9 +295,9 @@
     <convert type="EventName">FullDescription</convert>
   </widget>      
     -->    
-    <widget source="session.CurrentService" render="Label" borderWidth="2" position="985,860" size="915,34" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="bbbbbf" font="Regular; 28" valign="center" halign="right">
-      <convert type="CryptoInfo">VerboseInfo</convert>
-    </widget>
+<widget source="session.CurrentService" render="Label" borderWidth="2" position="985,860" size="754,34" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="bbbbbf" font="Regular; 28" valign="center" halign="right">
+  <convert type="CryptoInfo">VerboseInfo</convert>
+</widget>
     <panel name="InfoBarTemplate" />
     <eLabel position="955,140" size="3,710" foregroundColor="darkgreyy" zPosition="3" backgroundColor="darkgreyy" />
     <widget source="session.CurrentService" render="Label" position="15,860" size="915,34" borderWidth="1" halign="left" font="Regular; 28" zPosition="1" transparent="1" backgroundColor="background" foregroundColor="fallback">

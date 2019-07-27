@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin>
+
+  <!-- edited from Lululla -->
   <!-- Templates -->
   <screen name="PlayerTemplate">
     <widget source="session.CurrentService" render="Label" position="c-624,6" size="1248,74" backgroundColor="transparent" zPosition="1" foregroundColor="foreground" borderWidth="2" font="Regular;36" borderColor="black" valign="center" halign="center">
@@ -393,24 +395,25 @@
     <widget source="session.CurrentService" render="cnEmptyEpg" emptyText="Servus Provider" position="885,914" size="539,36" borderWidth="1" backgroundColor="black" zPosition="2" font="Regular; 27" transparent="1" foregroundColor="uncccccc" noWrap="1" halign="right">
       <convert type="ServiceName">Provider</convert>
     </widget>
-    <eLabel text="Cpu:." position="1447,985" size="74,30" font="Regular; 26" borderWidth="1" backgroundColor="black" foregroundColor="amavi" transparent="1" zPosition="2" halign="left" />
-    <!--
-	<widget source="global.CurrentTime" render="cnCpuTemp" borderWidth="1" position="1507,985" size="86,30" halign="center" font="Regular;26" backgroundColor="black" foregroundColor="bbeyaz" transparent="1" zPosition="2" />
-    -->
-     <widget backgroundColor="black" position="1517,985" size="80,30" font="Regular; 28" halign="center" foregroundColor="white" transparent="1" zPosition="10" render="Label" source="global.CurrentTime">
-      <convert type="cnCPUinfo">CPUtemp</convert>
-    </widget>	
+  <!--	CPU    -->
+
+  <eLabel text="CPU.:" position="1554,969" size="72,30" font="Regular;22" halign="right" valign="center" noWrap="1" backgroundColor="background" transparent="1" foregroundColor="amavi" />
+  <widget source="session.CurrentService" render="Label" position="1439,990" size="320,30" font="Regular; 18" zPosition="1" backgroundColor="background" halign="left" valign="center" transparent="1" foregroundColor="bbeyaz" noWrap="1">
+    <convert type="slCPUInfo">$0 (Core #1: $1, Core #2: $2)</convert>
+  </widget>
+	
 	<widget source="session.FrontendStatus" render="Label" borderWidth="1" position="1628,914" size="110,30" text="15.2 dB" backgroundColor="black" transparent="1" zPosition="2" foregroundColor="bbeyaz" font="Regular; 28" halign="right">
       <convert type="CnFrontendInfo">SNRdB</convert>
     </widget>
     <!-- weather_icons -->
-    <ePixmap alphatest="blend" pixmap="CinoGriPLiFhd/infobar/drc.png" position="1600,983" size="38,36" transparent="1" zPosition="3" />
+<ePixmap alphatest="blend" pixmap="CinoGriPLiFhd/infobar/drc.png" position="1764,871" size="35,36" transparent="1" zPosition="3" />
+
     <widget alphatest="blend" render="MSNWeatherPixmap" position="1760,909" size="140,100" source="session.MSNWeather" transparent="1" zPosition="10">
       <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/CinoGriPLiFhd/weather_icons/,png</convert>
     </widget>
-    <widget noWrap="1" foregroundColor="SteelBlue2" backgroundColor="black" transparent="1" font="Regular; 30" render="Label" position="1624,983" size="114,34" source="session.MSNWeather" zPosition="10" halign="right" valign="top">
-      <convert type="MSNWeather">temperature_current</convert>
-    </widget>
+  <widget noWrap="1" foregroundColor="SteelBlue2" backgroundColor="black" transparent="1" font="Regular; 30" render="Label" position="1806,872" size="89,34" source="session.MSNWeather" zPosition="10" halign="left" valign="top">
+    <convert type="MSNWeather">temperature_current</convert>
+  </widget>
     <!--<ePixmap pixmap="CinoGriPLiFhd/icons/icon_update_off.png" position="90,52" size="30,30" zPosition="0" alphatest="blend"/>-->
     <widget source="session.CurrentService" render="ChannelNumber" position="265,914" size="88,38" backgroundColor="background" transparent="1" zPosition="1" foregroundColor="unff3737" font="Roboto;32" valign="center" halign="center" />
     <eLabel name="" position="265,1027" size="1474,2" foregroundColor="un33333a" zPosition="2" backgroundColor="un33333a" />

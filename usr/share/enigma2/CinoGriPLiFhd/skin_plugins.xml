@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
-
+  <!-- edited from Lululla -->
   <!-- slSettings   -->
 <screen name="MainSetting" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
   <panel name="PigTemplate" />
