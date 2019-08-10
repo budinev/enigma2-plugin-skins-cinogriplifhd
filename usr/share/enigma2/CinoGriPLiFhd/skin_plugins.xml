@@ -1,6 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
   <!-- edited from Lululla -->
+
+
+<screen name="ChangePasswdScreen" position="fill" title="Change Root Password" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />   
+  <widget name="passwd" itemHeight="45" font="Regular; 30" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" position="860,101" size="1000,802" scrollbarMode="showOnDemand" />
+  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  	   
+</screen> 
+
+  
+<screen name="ImageBackup" position="fill" title="ImageBackup Panel" flags="wfNoBorder">
+  <panel name="PigTemplate" />
+  <panel name="ButtonTemplate" />   
+  <!--
+    <widget name="info-hdd" position="860,91" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+    <widget name="info-multi" position="860,336" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+    <widget name="info-usb" position="860,576" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+	-->
+    <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  	   
+</screen>  
+  
   <!-- slSettings   -->
 <screen name="MainSetting" position="fill" title="Sat-Lodge Settings" flags="wfNoBorder">
   <panel name="PigTemplate" />
@@ -275,7 +296,7 @@
     <widget name="key_red" position="242,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="red" />
     <widget name="key_green" position="678,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="green" />
 
-    <widget source="menu" render="Listbox" position="782,107" size="1137,289" zPosition="3" transparent="1" foregroundColor="#ffff00" foregroundColorSelected="#ffffff" backgroundColorSelected="#000000" scrollbarMode="showNever">
+    <widget source="menu" render="Listbox" position="782,107" size="1137,389" zPosition="3" transparent="1" foregroundColor="#ffff00" foregroundColorSelected="#ffffff" backgroundColorSelected="#000000" scrollbarMode="showNever">
 	<convert type="TemplatedMultiContent">
 	{"template": [
 	MultiContentEntryText(pos = (10, 2), size = (870, 60), flags = RT_HALIGN_LEFT, text = 1), # index 0 is the MenuText,
@@ -285,7 +306,7 @@
 	}
 	</convert>
 	</widget>
-	<widget source="menu" render="Listbox" position="780,400" size="1138,276" zPosition="4" scrollbarMode="showNever" selectionDisabled="1" transparent="1">
+	<widget source="menu" render="Listbox" position="780,498" size="1138,178" zPosition="4" scrollbarMode="showNever" selectionDisabled="1" transparent="1">
 	<convert type="TemplatedMultiContent">
 	{"template": [
 	MultiContentEntryText(pos = (0, 3), size = (880, 150), flags = RT_HALIGN_CENTER|RT_VALIGN_TOP|RT_WRAP, text = 2), # index 0 is the MenuText,
@@ -308,16 +329,19 @@
 
 <screen name="ImageDownLoaderFiles" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
+  <!--
     <ePixmap pixmap="CinoGriPLiFhd/buttons/red.png" position="192,1032" size="34,34" alphatest="blend" />
     <ePixmap pixmap="CinoGriPLiFhd/buttons/green.png" position="628,1032" size="34,34" alphatest="blend" />  
+    <ePixmap pixmap="CinoGriPLiFhd/buttons/blue.png" position="1363,1032" size="34,34" alphatest="blend" />  
     <widget name="key_red" position="242,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="red" />
     <widget name="key_green" position="678,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="green" />
+    <widget name="key_blue" position="1410,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="blue" />
+   -->
+	<widget name="menu" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+    <widget name="info" position="860,576" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
+    <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  	   
+  <panel name="ButtonTemplate" />   
 
-  <widget name="menu" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
-  <widget name="info" position="860,576" zPosition="4" size="1001,436" font="Regular;30" foregroundColor="#F0F0F0" transparent="1" halign="center" valign="center" /> 
-  
-  
-  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
 </screen>
 
 <screen name="ImageDownloadLocation" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
@@ -326,13 +350,10 @@
     <ePixmap pixmap="CinoGriPLiFhd/buttons/green.png" position="628,1032" size="34,34" alphatest="blend" />  
     <widget name="key_red" position="242,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="red" />
     <widget name="key_green" position="678,1030" size="370,38" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="green" />
-
-  <widget name="filelist" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
+    <widget name="filelist" zPosition="2" position="780,105" size="1137,902" itemHeight="45" font="Regular; 32" selectionPixmap="CinoGriPLiFhd/buttons/sel2.png" />   
 	<widget source="text" render="Label" position="42,630" size="800,100" valign="center" halign="center" font="Regular;36" transparent="1" zPosition="3" foregroundColor="#ffff00" />
 	<widget name="target" position="43,728" size="800,100" valign="center" halign="center" font="Regular;36" transparent="1" zPosition="4" />
-  
-  
-  <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
+    <ePixmap pixmap="CinoGriPLiFhd/border/smallshadowline.png" position="0,1020" size="1920,3" />  
 </screen>
 
 <screen name="downloadTask" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
@@ -354,7 +375,6 @@
 </screen>
 
 
-            
 <screen name="Homesl" position="fill" title="Sat-Lodge Panel" flags="wfNoBorder">
   <panel name="PigTemplate" />
   <panel name="ButtonTemplate" />

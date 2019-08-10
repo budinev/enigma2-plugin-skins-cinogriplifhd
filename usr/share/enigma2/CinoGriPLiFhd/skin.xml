@@ -402,8 +402,13 @@
   <screen name="ChannelSelection" title="Channel Selection" position="fill" flags="wfNoBorder">
     <panel name="SelectionTemplate" />
     <panel name="KeyMenuInfoTemplate" />
+	<!--
     <widget name="list" position="780,108" size="1125,900" itemHeight="45" transparent="1" serviceNumberFont="Regular;31" scrollbarMode="showOnDemand" serviceInfoFont="Regular;29" serviceNameFont="Regular;31" serviceItemHeight="45" picServiceEventProgressbar="CinoGriPLiFhd/window/progress.png" progressbarHeight="15" progressBarWidth="60" progressPercentWidth="80" colorEventProgressbarBorder="un33333a" fieldMargins="15" nonplayableMargins="15" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="#e5cfb8" foregroundColorEventSelected="unffffff" progressbarBorderWidth="0" foregroundColorServiceNotAvail="#notavailable" backgroundColorMarked="#656565" colorServiceDescriptionFallback="selectedFG" colorServiceDescriptionSelectedFallback="unffffff" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="selectedFG" />
-    <widget source="ServiceEvent" render="Label" position="10,535" size="540,34" foregroundColor="Thistle3" font="Regular; 27" valign="center" halign="center" transparent="1" zPosition="1" backgroundColor="black">
+    -->
+	
+    <widget name="list" position="780,108" size="1125,900" itemHeight="45" transparent="1" serviceNumberFont="Regular;31" scrollbarMode="showOnDemand" serviceInfoFont="Regular;29" serviceNameFont="Regular;31" serviceItemHeight="45" picServiceEventProgressbar="CinoGriPLiFhd/window/progress.png" progressbarHeight="15" progressBarWidth="60" progressPercentWidth="80" colorEventProgressbarBorder="un33333a" fieldMargins="15" nonplayableMargins="15" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="#0099ff" foregroundColorEventSelected="#ff9900" progressbarBorderWidth="0" foregroundColorServiceNotAvail="#notavailable" backgroundColorMarked="#656565" colorServiceDescriptionFallback="selectedFG" colorServiceDescriptionSelectedFallback="unffffff" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="selectedFG" colorEventProgressbar="#656565" colorEventProgressbarSelected="#ff9900" scrollbarSliderBorderColor="darkgrey" scrollbarSliderForegroundColor="#0072c4ff" scrollbarSliderBorderWidth="0" scrollbarWidth="4" scrollbarSliderPicture="CinoGriPLiFhd/infobar/scrollbar.png" itemsDistances="8" />
+
+	<widget source="ServiceEvent" render="Label" position="10,535" size="540,34" foregroundColor="Thistle3" font="Regular; 27" valign="center" halign="center" transparent="1" zPosition="1" backgroundColor="black">
       <convert type="cnServiceName">%O  %s  %F %p %Y %f %M %b</convert>
     </widget>
     <widget source="ServiceEvent" render="Label" position="15,595" size="90,32" transparent="1" foregroundColor="green" font="Regular;28" halign="left" backgroundColor="black">
@@ -1932,15 +1937,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
     <widget name="repeat" position="1785,1032" size="105,45" zPosition="10" pixmaps="CinoGriPLiFhd/buttons/repeat-off.png,CinoGriPLiFhd/buttons/repeat-on.png" alphatest="blend" />
   </screen>
   <!-- error -->
-  
-  <!--    
   <screen name="SubtitleDisplay" position="fill" backgroundColor="transparent" zPosition="-1" flags="wfNoBorder" >
   </screen>  
--->
+  <!--  
   <screen name="SubtitleDisplay" position="fill" backgroundColor="transparent" zPosition="-1" flags="wfNoBorder" />
-
-
-
+-->
 
   <!-- About -->
 <screen name="About" position="fill" flags="wfNoBorder">
